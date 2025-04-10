@@ -1,0 +1,45 @@
+#calendar {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.fc-event {
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+
+.turno-manana {
+  background-color: #28a745 !important;
+}
+
+.turno-tarde {
+  background-color: #ffc107 !important;
+  color: black !important;
+}
+
+.turno-noche {
+  background-color: #007bff !important;
+}
+
+#notificacion {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  padding-right: 80px;
+}
+
+#btn-deshacer {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 6px 12px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
